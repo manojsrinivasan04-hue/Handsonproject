@@ -13,14 +13,14 @@ variable "aws_secret_key" {
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "ap-southeast-1"
+  default     = "us-east-1"
 }
 
 
 variable "ami" {
    type        = string
    description = "Amazon AMI ID"
-   default     = "ami-06b902272f32e4381"
+   default     = "ami-0157af9aea2eef346"
 }
 
 variable "instance_type" {
