@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url:'https://github.com/manojsrinivasan04-hue/Infrastructure-with-Jenkins-in-Automation.git'
+                git branch: 'main', url:'https://github.com/manojsrinivasan04-hue/Handsonproject.git'
             }
         }
         stage('Terraform init') {
